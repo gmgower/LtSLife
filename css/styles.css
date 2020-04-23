@@ -75,6 +75,10 @@ strong {
   color: #143774;
 }
 
+.article-info {
+  margin: 2em 0;
+}
+
 /* =================
 Layout
 ================= */
@@ -156,4 +160,12 @@ header {
   aside {
     width: 20%;
   }
+}
+
+/* Articles */
+
+.article-featured {
+  border-bottom: #707070 solid 1px;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
 }
