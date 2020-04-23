@@ -38,13 +38,13 @@ a {
   text-decoration: underline;
 }
 
-a:hover, 
+a:hover,
 a:focus {
-    color: #143774;
+  color: #143774;
 }
 
 strong {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .subtitle {
@@ -78,7 +78,6 @@ strong {
 /* =================
 Layout
 ================= */
-
 
 /* navigation */
 
@@ -135,35 +134,26 @@ nav a:focus {
 .container-flex {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 header {
   text-align: center;
   background: #f8f8f8;
   padding: 2em 0;
+  text-align: center;
 }
 
-@media (max-width: 675px) {
+@media (min-width: 675px) {
   .container-flex {
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  header {
-    text-align: center;
+  main {
+    width: 75%;
+  }
+
+  aside {
+    width: 20%;
   }
 }
-
-main {
-  width: 75%;
-}
-
-aside {
-  width: 20%;
-}
-
-
-
- 
-
-
-
