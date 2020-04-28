@@ -80,7 +80,7 @@ strong {
   margin: 2em 0;
 }
 
-.sidebar-title, 
+.sidebar-title,
 .sidebar-post-title {
   font-size: 1rem;
 }
@@ -88,7 +88,7 @@ strong {
 .sidebar-title {
   font-size: 1rem;
   font-weight: 700;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
 }
 /* =================
@@ -158,6 +158,13 @@ header {
   background: #f8f8f8;
   padding: 2em 0;
   margin-bottom: 3em;
+}
+
+footer {
+  background:#143774;
+  color: white;
+  text-align: center;
+  padding: 3em 0;
 }
 
 @media (min-width: 675px) {
@@ -246,7 +253,6 @@ header {
 .sidebar-recent-post:last-child {
   border: 0;
   margin: 0;
-
 }
 
 .sidebar-image {
